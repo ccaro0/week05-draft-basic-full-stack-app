@@ -5,7 +5,7 @@ import Layout, { siteTitle } from '../components/layout';
 // Bring in CSS Module class names (hashed at build time) from utils.module.css
 import utilStyles from '../styles/utils.module.css';
 // Bring in the helper that reads markdown files and returns posts sorted by date
-import { getSortedPostsData } from '../lib/posts';
+import { getSortedPostsData } from '../lib/posts-json';
 // Bring in Next.js Link for client-side navigation between pages
 import Link from 'next/link';
 // Bring in the Date component that formats a post's date string
