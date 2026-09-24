@@ -18,13 +18,26 @@ export default function Post({ postData }) {
           <title>{postData.title}</title>
         </Head>
         <article className={utilStyles.backgroundC}>
+
+
           <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+
           <div className={utilStyles.lightText}>
             <Date dateString={postData.date} />
-            <p>Climate: {postData.climate}</p>
-            <p>Attractions: {postData.attractions}</p>
           </div>
-          <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+
+          <div className={utilStyles.secondHeading}>
+          <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />            
+          </div>
+
+          
+          <h2 className={utilStyles.secondHeading}>Climate</h2>
+            <p className={utilStyles.lighterText}>{postData.climate}</p>
+
+          <h2 className={utilStyles.secondHeading}>Attractions</h2>
+            <p className={utilStyles.lighterText}>{postData.attractions}</p>
+
+
         </article>
       </Layout>
     );

@@ -1,26 +1,26 @@
 [
     {
-        "title": "JSON San Francisco",
+        "title": "San Francisco",
         "date": "2026-09-22",
-        "contentHtml": "<p>JSON San Francisco is a beautiful city.</p>",
+        "contentHtml": "<p>San Francisco is a beautiful city in California.</p>",
         "climate": "Cool and foggy",
         "attractions": "Golden Gate Bridge, Alcatraz Island, Fisherman's Wharf",
-        "id": "1"
+        "id": "CA"
     },
     {
-        "title": "JSON Seattle",
+        "title": "Seattle",
         "date": "2026-09-23",
-        "contentHtml": "<p>JSON Seattle is a beautiful city.</p>",
-        "climate": "Cool and foggy",
+        "contentHtml": "<p>Seattle is a beautiful city in Washington.</p>",
+        "climate": "Temparate marine climate",
         "attractions": "Space Needle, Pike Place Market, Alki Beach",
-        "id": "2"
+        "id": "WA"
     },
     {
-        "title": "JSON Salem",
+        "title": "Salem",
         "date": "2026-09-23",
-        "contentHtml": "<p>JSON Salem is a beautiful city.</p>",
-        "climate": "Cool and foggy",
+        "contentHtml": "<p>Salem is a beautiful city in Oregon.</p>",
+        "climate": "Warm summer Mediterranean climate",
         "attractions": "Salem Witch Museum, Willamette Valley, Oregon State Capitol",
-        "id": "3"
+        "id": "OR"
     }
 ]
